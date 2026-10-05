@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Azriel Zaidan Arva | Portfolio</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body class="bg-neutral-100 text-neutral-900 font-sans leading-relaxed">
+
+    <!-- NAVBAR -->
+    <header class="sticky top-0 z-50 bg-neutral-100/95 border-b border-neutral-300">
+        <nav class="max-w-6xl mx-auto px-5 md:px-8 py-5 flex justify-between items-center gap-4">
+
+            <a href="#home" class="text-2xl font-extrabold tracking-tight">
+                AZA.
+            </a>
+
+            <div class="flex gap-3 sm:gap-5 md:gap-8 text-xs sm:text-sm flex-wrap justify-end">
+                <a href="#home" class="hover:text-neutral-500 transition">
+                    Home
+                </a>
+
+                <a href="#about" class="hover:text-neutral-500 transition">
+                    About
+                </a>
+
+                <a href="#skills" class="hover:text-neutral-500 transition">
+                    Skills
+                </a>
+
+                <a href="#projects" class="hover:text-neutral-500 transition">
+                    Projects
+                </a>
+
+                <a href="#contact" class="hover:text-neutral-500 transition">
+                    Contact
+                </a>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- HOME -->
+        <section id="home"
+            class="max-w-6xl mx-auto min-h-[650px] px-5 md:px-8 py-20 md:py-24 flex flex-col md:flex-row justify-between items-center gap-12 md:gap-16">
+
+            <div class="max-w-2xl">
+
+                <p class="text-neutral-500 text-sm font-bold tracking-[0.3em] mb-5">
+                    HELLO, I'M
+                </p>
+
+                <h1 class="text-6xl md:text-7xl lg:text-8xl font-extrabold leading-[0.95] tracking-tight mb-8">
+                    Azriel
+                    <span class="text-neutral-500">
+                        Zaidan Arva.
+                    </span>
+                </h1>
+
+                <p class="max-w-xl text-neutral-600 text-lg md:text-xl">
+                    Mahasiswa Ilmu Komputer yang tertarik dengan
+                    web development, programming, dan teknologi.
+                </p>
+
+                <div class="mt-8 flex flex-wrap gap-4">
+
+                    <a href="#projects"
+                        class="px-6 py-3.5 bg-neutral-900 text-white border border-neutral-900 hover:bg-neutral-700 transition">
+                        Lihat Project
+                    </a>
+
+                    <a href="#contact"
+                        class="px-6 py-3.5 border border-neutral-900 hover:bg-neutral-900 hover:text-white transition">
+                        Hubungi Saya
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- FOTO -->
+            <div class="w-full md:w-[330px] h-[430px] bg-neutral-300 overflow-hidden shrink-0">
+
+                <img src="images/foto.png"
+                    alt="Foto Azriel"
+                    class="w-full h-full object-cover">
+
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT -->
+        <section id="about"
+            class="max-w-6xl mx-auto px-5 md:px-8 py-24">
+
+            <div class="flex items-center gap-5 mb-14">
+
+                <span class="text-neutral-500 font-bold">
+                    01
+                </span>
+
+                <h2 class="text-4xl font-bold tracking-tight">
+                    About Me
+                </h2>
+
+            </div>
+
+
+            <div class="grid md:grid-cols-[1.5fr_1fr] gap-12 md:gap-20">
+
+                <div class="text-lg md:text-xl text-neutral-600">
+
+                    <p>
+                        Saya adalah mahasiswa Ilmu Komputer yang sedang
+                        mempelajari berbagai bidang dalam teknologi,
+                        khususnya pemrograman dan pengembangan website.
+                    </p>
+
+                    <p class="mt-6">
+                        Saya senang mencoba hal baru, membuat project,
+                        dan memahami bagaimana sebuah aplikasi bekerja
+                        dari sisi tampilan hingga logikanya.
+                    </p>
+
+                </div>
+
+
+                <div class="border-t md:border-t-0 md:border-l border-neutral-300
+                            pt-8 md:pt-0 md:pl-10 flex flex-col gap-7">
+
+                    <div>
+                        <span class="block text-xs text-neutral-500 uppercase tracking-widest">
+                            Focus
+                        </span>
+
+                        <strong class="text-lg">
+                            Web Development
+                        </strong>
+                    </div>
+
+
+                    <div>
+                        <span class="block text-xs text-neutral-500 uppercase tracking-widest">
+                            Education
+                        </span>
+
+                        <strong class="text-lg">
+                            Computer Science
+                        </strong>
+                    </div>
+
+
+                    <div>
+                        <span class="block text-xs text-neutral-500 uppercase tracking-widest">
+                            Location
+                        </span>
+
+                        <strong class="text-lg">
+                            Medan, Indonesia
+                        </strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SKILLS -->
+        <section id="skills"
+            class="bg-neutral-900 text-white py-24">
+
+            <div class="max-w-6xl mx-auto px-5 md:px-8">
+
+                <div class="flex items-center gap-5 mb-14">
+
+                    <span class="text-neutral-500 font-bold">
+                        02
+                    </span>
+
+                    <h2 class="text-4xl font-bold tracking-tight">
+                        Skills
+                    </h2>
+
+                </div>
+
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-px bg-neutral-700">
+
+                    <!-- SKILL 1 -->
+                    <div class="bg-neutral-900 min-h-[220px] p-8 hover:bg-neutral-800 transition">
+
+                        <p class="text-neutral-500 mb-10">
+                            01
+                        </p>
+
+                        <h3 class="text-2xl font-bold mb-3">
+                            Web Development
+                        </h3>
+
+                        <p class="text-neutral-400">
+                            HTML, CSS, JavaScript, dan dasar pengembangan website.
+                        </p>
+
+                    </div>
+
+
+                    <!-- SKILL 2 -->
+                    <div class="bg-neutral-900 min-h-[220px] p-8 hover:bg-neutral-800 transition">
+
+                        <p class="text-neutral-500 mb-10">
+                            02
+                        </p>
+
+                        <h3 class="text-2xl font-bold mb-3">
+                            Programming
+                        </h3>
+
+                        <p class="text-neutral-400">
+                            C++, Python, dan pemrograman dasar.
+                        </p>
+
+                    </div>
+
+
+                    <!-- SKILL 3 -->
+                    <div class="bg-neutral-900 min-h-[220px] p-8 hover:bg-neutral-800 transition">
+
+                        <p class="text-neutral-500 mb-10">
+                            03
+                        </p>
+
+                        <h3 class="text-2xl font-bold mb-3">
+                            Database
+                        </h3>
+
+                        <p class="text-neutral-400">
+                            PostgreSQL dan pengelolaan database dasar.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJECTS -->
+        <section id="projects"
+            class="max-w-6xl mx-auto px-5 md:px-8 py-24">
+
+            <div class="flex items-center gap-5 mb-14">
+
+                <span class="text-neutral-500 font-bold">
+                    03
+                </span>
+
+                <h2 class="text-4xl font-bold tracking-tight">
+                    Projects
+                </h2>
+
+            </div>
+
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+
+                <!-- PROJECT 1 : WRAP ME UP -->
+                <article class="bg-white border border-neutral-300 p-7 min-h-[450px]
+                               flex flex-col hover:-translate-y-2 hover:border-neutral-900
+                               transition duration-300">
+
+                    <img src="images/project1.png"
+                        alt="Project Wrap Me Up"
+                        class="w-full h-48 object-cover grayscale hover:grayscale-0 transition mb-6">
+
+
+                    <div class="flex justify-between text-xs text-neutral-500 tracking-widest mb-2">
+
+                        <span>01</span>
+
+                        <span>WEB</span>
+
+                    </div>
+
+
+                    <h3 class="text-2xl font-bold mb-3">
+                        Wrap Me Up
+                    </h3>
+
+
+                    <p class="text-neutral-600">
+                        Website sederhana untuk bisnis jasa packing
+                        dan kebutuhan packaging.
+                    </p>
+
+
+                    <div class="mt-auto pt-6 flex flex-wrap gap-2">
+
+                        <span class="bg-neutral-900 text-white px-3 py-1 text-xs">
+                            HTML
+                        </span>
+
+                        <span class="bg-neutral-900 text-white px-3 py-1 text-xs">
+                            CSS
+                        </span>
+
+                        <span class="bg-neutral-900 text-white px-3 py-1 text-xs">
+                            JavaScript
+                        </span>
+
+                    </div>
+
+
+                    <a href="https://github.com/aza-aja/wrap-me-up"
+                        target="_blank"
+                        class="mt-5 pt-4 border-t border-neutral-300 text-sm font-bold hover:text-neutral-500 transition">
+                        View Project
+                    </a>
+
+                </article>
+
+
+                <!-- PROJECT 2 : WORDLE CLONE -->
+                <article class="bg-white border border-neutral-300 p-7 min-h-[450px]
+                               flex flex-col hover:-translate-y-2 hover:border-neutral-900
+                               transition duration-300">
+
+                    <img src="images/project2.png"
+                        alt="Project Wordle Clone"
+                        class="w-full h-48 object-cover grayscale hover:grayscale-0 transition mb-6">
+
+
+                    <div class="flex justify-between text-xs text-neutral-500 tracking-widest mb-2">
+
+                        <span>02</span>
+
+                        <span>GAME</span>
+
+                    </div>
+
+
+                    <h3 class="text-2xl font-bold mb-3">
+                        Wordle Clone
+                    </h3>
+
+
+                    <p class="text-neutral-600">
+                        Project permainan tebak kata dengan beberapa
+                        tingkat kesulitan dan sistem tutorial.
+                    </p>
+
+
+                    <div class="mt-auto pt-6 flex flex-wrap gap-2">
+
+                        <span class="bg-neutral-900 text-white px-3 py-1 text-xs">
+                            C++
+                        </span>
+
+                        <span class="bg-neutral-900 text-white px-3 py-1 text-xs">
+                            Qt
+                        </span>
+
+                        <span class="bg-neutral-900 text-white px-3 py-1 text-xs">
+                            Logic
+                        </span>
+
+                    </div>
+
+
+                    <a href="https://github.com/aksaray78/Wordle-Clone"
+                        target="_blank"
+                        class="mt-5 pt-4 border-t border-neutral-300 text-sm font-bold hover:text-neutral-500 transition">
+                        View Project
+                    </a>
+
+                </article>
+
+
+                <!-- PROJECT 3 : MINESWEEPER -->
+                <article class="bg-white border border-neutral-300 p-7 min-h-[450px]
+                               flex flex-col hover:-translate-y-2 hover:border-neutral-900
+                               transition duration-300">
+
+                    <img src="images/project3.png"
+                        alt="Project Minesweeper"
+                        class="w-full h-48 object-cover grayscale hover:grayscale-0 transition mb-6">
+
+
+                    <div class="flex justify-between text-xs text-neutral-500 tracking-widest mb-2">
+
+                        <span>03</span>
+
+                        <span>GAME</span>
+
+                    </div>
+
+
+                    <h3 class="text-2xl font-bold mb-3">
+                        Minesweeper
+                    </h3>
+
+
+                    <p class="text-neutral-600">
+                        Game Minesweeper sederhana dengan penerapan
+                        logika permainan dan algoritma.
+                    </p>
+
+
+                    <div class="mt-auto pt-6 flex flex-wrap gap-2">
+
+                        <span class="bg-neutral-900 text-white px-3 py-1 text-xs">
+                            C++
+                        </span>
+
+                        <span class="bg-neutral-900 text-white px-3 py-1 text-xs">
+                            Game
+                        </span>
+
+                        <span class="bg-neutral-900 text-white px-3 py-1 text-xs">
+                            Logic
+                        </span>
+
+                    </div>
+
+                    <a href="https://github.com/aza-aja/minesweeper"
+                        target="_blank"
+                        class="mt-5 pt-4 border-t border-neutral-300 text-sm font-bold hover:text-neutral-500 transition">
+                        View Project
+                    </a>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT -->
+        <section id="contact"
+            class="bg-neutral-900 text-white px-5 md:px-8 py-24">
+
+            <div class="max-w-6xl mx-auto">
+
+                <div class="flex items-center gap-5">
+
+                    <span class="text-neutral-500 font-bold">
+                        04
+                    </span>
+
+                    <h2 class="text-5xl md:text-7xl font-bold tracking-tight">
+                        Let's Connect.
+                    </h2>
+
+                </div>
+
+
+                <p class="max-w-xl mt-6 mb-10 text-neutral-400">
+                    Punya project atau ingin berdiskusi tentang teknologi?
+                    Silakan hubungi saya melalui salah satu platform di bawah.
+                </p>
+
+
+                <div class="flex flex-wrap gap-8">
+
+                    <a href="mailto:aza29arva@gmail.com"
+                        class="border-b border-white pb-1 hover:text-neutral-400 transition">
+                        Email ↗
+                    </a>
+
+                    <a href="https://github.com/aza-aja"
+                        target="_blank"
+                        class="border-b border-white pb-1 hover:text-neutral-400 transition">
+                        GitHub ↗
+                    </a>
+
+                    <a href="https://www.instagram.com/azrlzaidanarva"
+                        target="_blank"
+                        class="border-b border-white pb-1 hover:text-neutral-400 transition">
+                        Instagram ↗
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="bg-black text-white px-5 md:px-8 py-8">
+
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row
+                    justify-between items-center gap-4">
+
+            <div class="font-bold text-xl">
+                AZA.
+            </div>
+
+            <p class="text-neutral-500 text-sm">
+                © 2026 Azriel Zaidan Arva. Built with HTML & Tailwind CSS.
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
